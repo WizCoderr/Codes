@@ -1,4 +1,14 @@
 // Bubble Sort Algorithm
+// Time Complexity: O(n^2)
+// Space Complexity: O(1)
+// Auxiliary Space: O(1)
+// Stable: Yes
+// Sorting In Place: Yes
+// Online: No
+// Uses: When the array is almost sorted
+// Worst Case: O(n^2)
+// Best Case: O(n)
+// Average Case: O(n^2)
 fun BubbleSort(arr:List<Int>){
     var n = arr.size
     for(i in 0 until n-1){
